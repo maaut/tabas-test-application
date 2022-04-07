@@ -1,0 +1,33 @@
+.properties-wrapper {
+    display: flex;
+    background: #f8f9fe;
+}
+
+.cards-wrapper {
+  display: flex;    
+  flex: 2;
+  flex-wrap: wrap;
+}
+
+.property-card {
+    display: flex;
+    flex-direction: column;
+    width: 515px;
+    margin: 20px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 0.5rem;
+    box-shadow: rgb(41 45 50 / 16%) 0px 0.5px;
+}
+
+.property-card span {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    line-height: 1.6;
+    margin: 12px 0px;
+}
+
+.clearbox {
+
+}

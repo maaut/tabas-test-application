@@ -1,0 +1,13 @@
+<%= stylesheet_link_tag "properties.css" %>
+<div class="properties-wrapper"  >
+  <div class="cards-wrapper">
+    <% @properties.each do |property| %>
+      <div class="property-card">
+        <%= image_tag(property.images[2]) %>
+        <span> <%= property.name %> </span>
+      </div>
+    <% end %>
+  </div>
+  <div style="display: flex; flex: 1">
+  </div>
+</div>
