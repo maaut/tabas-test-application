@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "faker", "~> 2.20"
+
+gem "down", "~> 5.3"
